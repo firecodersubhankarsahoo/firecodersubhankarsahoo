@@ -1,24 +1,25 @@
-name: Pacman Animation
+name: Deploy Pacman
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@master
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman.svg
-      - name: Push Pacman to output branch
+          node-version: 18
+      - run: npm install
+      - run: npm run build
+      - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: gh-pages
+          build_dir: build  # <-- This folder must exist after `npm run build`
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
