@@ -11,7 +11,7 @@
   <a href="https://x.com/SDESubhankar51" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="44" height="32" alt="twitter logo"  />
   </a>
-  <a href="9832508226" target="_blank">
+  <a href="wa.me/9832508226" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="44" height="32" alt="whatsapp logo"  />
   </a>
   <a href="subhankarsau51@gmail.com" target="_blank">
