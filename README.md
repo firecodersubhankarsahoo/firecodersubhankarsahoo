@@ -94,7 +94,6 @@
 
 
 ![GitHub Snake Light](https://raw.githubusercontent.com/firecodersubhankarsahoo/firecodersubhankarsahoo/output/snake.svg)
-![Pacman animation](https://raw.githubusercontent.com/<your-username>/<your-repo>/output/pacman.svg)
 
 ###
 
