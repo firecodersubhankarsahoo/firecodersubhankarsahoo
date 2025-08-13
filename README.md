@@ -92,7 +92,8 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/firecodersubhankarsahoo/firecodersubhankarsahoo/output/snake.svg" alt="Snake animation" />
+
+![GitHub Snake Light](https://raw.githubusercontent.com/firecodersubhankarsahoo/firecodersubhankarsahoo/output/snake.svg)
 
 ###
 
